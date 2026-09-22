@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：调优方案：前端静态资源打包性能体积优化
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/68571693.html
+
+原标题：golang 系统设计缓存预热缓存降级实现
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/84827947.html
+
+原标题：golang 简单爬虫请求防封禁
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/71480268.html
+
+原标题：排错：CI流水线构建失败，日志无明确报错
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/39122571.html
+
+原标题：Hands‑on：简易链路追踪原型开发实践
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/39278057.html
+
+原标题：Practice：批量异步任务处理系统设计实现
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/21780591.html
+
+原标题：Practice：批量异步任务处理系统设计实现
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/62902724.html
+
+原标题：golang gin 静态资源访问配置
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29239183.html
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/53679179.html
+
+原标题：缓存基础原理与简单代码实现
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/39237250.html
+
+原标题：golang 系统设计代码仓库权限管理方案
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/84161394.html
+
+原标题：Performance：避免大报文，减少内存占用优化
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/95904617.html
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：读懂开源项目 README 实用技巧，教你快速解析开源项目说明文档，提取安装、运行、配置关键信息，快速上手项目。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/84949169.html
+
+原标题：开发复盘：实现定时任务调度服务支持动态任务
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/06037239.html
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/82915023.html
+
+原标题：golang 系统设计缓存热点 key 问题业务规避
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/06360241.html
+
+原标题：Fork 开源项目同步上游代码
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/41026113.html
+
+原标题：优化实践：多级缓存减少下游服务调用压力
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/84149282.html
+
+原标题：CLI 批量处理工具文件操作开发
+简介：golang 速率限制令牌桶实现，Go 实现令牌桶限流算法，可复用限流器，控制业务调用速率。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/17059156.html
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：golang go sum 校验失败处理方案，go sum 校验不匹配，排查网络代理，清理缓存解决校验报错。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/63848179.html
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/39682794.html
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/04935027.html
+
+原标题：golang base64 编码解码实操
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/41516928.html
+
+原标题：golang k8s 节点污点容忍度配置
+简介：golang 互斥锁读写锁并发安全，互斥锁读写锁实操，保护共享变量，解决多协程并发读写数据竞争。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/48693626.html
+
+原标题：golang ci 流水线代码质量扫描集成
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/30790696.html
+
+原标题：golang 系统设计故障应急响应完整流程梳理
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/63694648.html
+
+原标题：极简 API 网关路由转发实现
+简介：golang context.WithCancel 手动取消上下文，WithCancel 生成可取消 ctx，手动调用 cancel 触发取消。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/86950259.html
+
+原标题：golang 日志 zap 结构化日志实践
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/53738182.html
+
+原标题：Troubleshooting：Redis大key引发集群卡顿
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/85079471.html
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/69010904.html
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/18815704.html
+
+原标题：架构笔记：海量日志处理架构选型与实践
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/15361575.html
+
+原标题：入门实践：简单的请求封装与异常捕获
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/94149293.html
+
+原标题：Architecture：日志、监控、告警整套可观测架构
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/18270682.html
+
+原标题：坑点：软链接权限问题容器读取文件失败
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/95058181.html
+
+原标题：Nginx 缓冲区调优大文件上传
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/70807028.html
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/96270691.html
+
+原标题：nodejs 定时任务生产环境避坑
+简介：golang base64 编码解码实操，Go Base64 编码解码示例，处理业务场景 Base64 格式数据转换。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/18270392.html
+
+原标题：坑点：软链接权限问题容器读取文件失败
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/75806958.html
+
+原标题：开发复盘：统一错误码体系设计落地实践
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/63807069.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Hands‑on：简易频率统计组件Redis实现
+简介：提交第一个开源 PR 完整流程，Fork 项目、修改代码、提交 Pull Request，讲解 PR 规范，提升合并通过率。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/53795848.html
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/41503038.html
+
+原标题：golang 系统设计单元测试边界条件覆盖思路
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/60039271.html
+
+原标题：数据库索引重建提升查询速度
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29684804.html
+
+原标题：内网测试服务搭建团队调试
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/41637269.html
+
+原标题：实战：gRPC服务编写客户端服务端完整demo
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/75807163.html
+
+原标题：新手教程：gitstash暂存工作区变更实操
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/63947350.html
+
+原标题：golang 系统设计 rest 版本管理几种方案对比
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/74069571.html
+
+原标题：golang 系统设计日志与 traceId 关联打印实现
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29413616.html
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/97124607.html
+
+原标题：golang 系统设计 rest 版本管理几种方案对比
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/96062474.html
+
+原标题：线上故障：第三方接口超时未设置熔断雪崩
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/52647360.html
+
+原标题：WebSocket 断线重连稳定优化
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/07836260.html
+
+原标题：异步任务堆积消费能力优化
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/96039170.html
+
+原标题：Redis 分布式锁高并发安全实现
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/63835147.html
+
+原标题：golang 系统设计配置回滚版本历史记录实现
+简介：vue pinia 状态管理实战教程，Pinia 完整实战示例，实现状态定义修改，模块拆分替代 Vuex。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/18684585.html
+
+原标题：golang redis 分布式锁 redisson 思路
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/85957379.html
+
+原标题：DevOps：私有镜像仓库搭建与权限管控
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/26452417.html
+
+原标题：调优方案：CDN优化静态资源访问延迟
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/39574736.html
+
+原标题：Hands‑on：简易短消息模板渲染组件实践
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/51806957.html
+
+原标题：Practice：模拟缓存雪崩缓存击穿验证防护策略
+简介：golang grpc 服务端流推送数据，服务端流式响应，服务端持续向客户端推送多条响应消息。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/10451403.html
+
+原标题：golang k8s 命名空间资源隔离方案
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/30351404.html
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/63703030.html
+
+原标题：golang 系统设计令牌桶漏桶算法对比
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/96270695.html
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/74948273.html
+
+原标题：快速入门环境区分：开发、测试、生产环境
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/19404147.html
+
+原标题：坑点：缓存过期策略不当引发业务异常
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/43723928.html
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/60892806.html
+
+原标题：golang 布隆过滤器实现去重
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/07462697.html
+
+原标题：Practice：实现业务操作日志记录中间件实践
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/52927281.html
+
+原标题：快速入门日志打印与日志分级基础用法
+简介：golang 速率限制令牌桶实现，Go 实现令牌桶限流算法，可复用限流器，控制业务调用速率。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/52623039.html
+
+原标题：golang 系统设计开源项目维护简单经验分享
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29301452.html
+
+原标题：新手教程：Git撤销错误提交的几种常用方式
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/74816970.html
+
+原标题：golang kafka 核心概念分区副本
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/74147362.html
+
+原标题：Hands‑on：本地模拟分布式锁失效场景测试
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/07361713.html
+
+原标题：golang 系统设计消息幂等消费去重实现方案
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/63846251.html
+
+原标题：golang etcd 配置中心简单使用
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/26360393.html
+
+原标题：golang 系统设计锁优化减少竞争提升吞吐
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/85957582.html
+
+原标题：golang k8s pod 优雅关闭流程讲解
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/85272413.html
+
+原标题：开发复盘：百万数据批量导入数据库优化方案
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/20412918.html
+
+三、实战开发｜Practice
+原标题：golang 雪花 id 重复问题排查
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/28390798.html
+
+原标题：后端分页查询逻辑代码实现
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/07180617.html
+
+原标题：golang 系统设计 pre‑commit 钩子本地代码校验
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/95068473.html
+
+原标题：服务健康检查监控接口开发
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/37190682.html
+
+原标题：调优方案：服务实例扩容，水平扩展性能
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/07179582.html
+
+原标题：游标分页大数据查询性能提升
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/52645805.html
+
+原标题：golang 跨域处理中间件编写
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/54945816.html
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/50503928.html
+
+原标题：Performance：数据库join优化，大表join规避
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29363624.html
+
+原标题：快速入门日志打印与日志分级基础用法
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/30513240.html
+
+原标题：HelloDocker：编写你的第一个Dockerfile
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/31693916.html
+
+原标题：接口请求重试容错机制实现
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/04236149.html
+
+原标题：缓存过期打散防止缓存雪崩
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/48674657.html
+
+原标题：golang 系统设计消息发送确认机制配置实操
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/75947368.html
+
+原标题：性能笔记：锁优化减少竞争提升并发吞吐
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/17151392.html
+
+原标题：golang prometheus histogram 指标
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29382807.html
+
+原标题：安全实践：防止JSON解析漏洞恶意payload
+简介：golang multipart 表单文件上传解析，服务端解析 multipart 表单，获取上传文件与表单字段。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/47572514.html
+
+原标题：方案对比：缓存更新策略Cache‑Aside读写模式
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/10503928.html
+
+原标题：容器资源限制防止宿主机过载
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/71917060.html
+
+原标题：Practice：实现业务id生成不连续有序ID方案
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/15351322.html
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/69492807.html
+
+原标题：AI实践：大模型生成测试用例实践与校验
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/07172718.html
+
+原标题：限流规则误拦截正常请求修复
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/30403926.html
+
+原标题：golang k8s cronjob 定时任务配置
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/30482582.html
+
+原标题：浏览器内存泄漏排查前端页面
+简介：内存广播本地进程消息通知，实现进程内内存消息广播，进程内部模块之间事件通知解耦。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/74905841.html
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/52683627.html
+
+原标题：OpenAPI 自动接口文档生成
+简介：接口签名校验防篡改实现，实现请求签名验签逻辑，校验请求参数未被篡改，提升接口调用安全性。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/18138371.html
+
+原标题：分布式 ID 生成器高并发实现
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/85846251.html
+
+原标题：安全实践：敏感信息加密存储传输完整方案
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/40492802.html
+
+原标题：架构复盘：消息队列在业务系统中边界与最佳实践
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/41562584.html
+
+原标题：Fork 开源项目同步上游代码
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/63829362.html
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/96058583.html
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/85918092.html
+
+原标题：Practice：实现接口签名、验签完整示例代码
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29452470.html
+
+原标题：静态站点自动部署发布方案
+简介：golang k8s informer 机制原理理解，informer 监听 k8s 资源变更，本地缓存，减少 apiserver 压力。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/18140280.html
+
+原标题：Git 仓库瘦身加快克隆下载速度
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/74867368.html
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang go sum 校验失败处理方案，go sum 校验不匹配，排查网络代理，清理缓存解决校验报错。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/36061514.html
+
+原标题：架构复盘：系统扩容缩容架构无状态优先原则
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/74846251.html
+
+原标题：实践：分布式事务本地模拟验证实践
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/37694735.html
+
+原标题：新手向：看懂项目README的正确阅读姿势
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/48585846.html
+
+四、架构设计｜Architecture
+原标题：DNS 解析异常第三方调用故障
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/52707168.html
+
+原标题：golang ci 流水线环境变量管理方案
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/63635147.html
+
+原标题：从零学习简单分页逻辑实现思路
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/14605806.html
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：golang net/url 路径拼接处理，url.ParseRequestURI 处理请求 url，正确拼接 url 路径避免拼接错误。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/30471474.html
+
+原标题：架构复盘：限流系统架构防止恶意流量冲击
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29494728.html
+
+原标题：开发复盘：消息队列消息顺序性业务落地实践
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29485958.html
+
+原标题：Practice：实现接口签名、验签完整示例代码
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/83747070.html
+
+原标题：golang etcd 租约 lease 过期机制
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/92028291.html
+
+原标题：golang 系统设计本地缓存过期淘汰策略选型
+简介：golang 限流器熔断降级组合使用，限流熔断降级组合架构，流量防护完整方案，保障服务稳定性。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/73826581.html
+
+原标题：Docker 网络模式容器互通设置
+简介：golang 子进程超时杀死防止挂住，context 控制子进程超时，超时强制杀掉子进程，避免子进程僵尸。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/81235577.html
+
+原标题：golang kafka 重试机制配置实操
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/37890991.html
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/96058574.html
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/25168580.html
+
+原标题：Debug：静态资源缓存策略错误，用户看不到更新
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/29261413.html
+
+原标题：golang 参数校验业务接口处理
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/42612928.html
+
+原标题：golang gorm ORM 数据库操作
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/15572513.html
+
+原标题：实战：搭建本地对象存储兼容S3协议demo
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/26024703.html
+
+原标题：Hands‑on：简易请求转发代理中间件实现
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://www.blog.jfaxh.cn/visji/07391705.html
+
+?

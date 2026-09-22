@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：设计思考：分布式系统时钟同步带来的架构问题
+简介：golang 雪花 id 重复问题排查，排查雪花算法 ID 重复问题，时钟回拨、机器 ID 冲突，给出修复方案。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/29384697.html
+
+原标题：golang 系统设计开源项目贡献指南 contributing
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/82039152.html
+
+原标题：布隆过滤器数据高效去重实现
+简介：golang mysql 事务回滚异常处理，Go MySQL 事务异常捕获，正确回滚事务，保证异常场景数据回滚。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/29473696.html
+
+原标题：golang 系统设计第三方调用超时重试熔断
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/37584719.html
+
+原标题：系统文件描述符上限调大
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/19524037.html
+
+原标题：golang 系统设计逻辑删除物理删除选型对比
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/52805148.html
+
+原标题：内存泄漏定位分析完整流程
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/21524038.html
+
+原标题：复盘总结：技术方案文档模板架构设计文档
+简介：golang bufio 缓冲读写性能优化，bufio 带缓冲读写，减少系统调用，提升文件网络 IO 性能。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/74734048.html
+
+原标题：nodejs 消息队列消费服务开发
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/71473626.html
+
+原标题：golang 系统设计日志规范结构化日志落地
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/07472515.html
+
+原标题：多线程线程安全脏数据规避
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/06068171.html
+
+原标题：新手向：看懂项目README的正确阅读姿势
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/59706929.html
+
+原标题：golang 系统设计延迟队列业务实现
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/39405819.html
+
+原标题：golang 信号量控制并发数量
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/92049292.html
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18482637.html
+
+原标题：golang 系统设计参数校验统一处理方案
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/20394607.html
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41514138.html
+
+原标题：golang 系统设计 monorepo 仓库管理方案
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/29461514.html
+
+原标题：优化实践：Redis管道、批量命令减少网络往返
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41404038.html
+
+原标题：实战项目：Nginx限速、限流、防爬虫配置实践
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/59705817.html
+
+原标题：线上故障：Redis内存淘汰策略错误数据丢失
+简介：golang http 客户端连接泄漏排查，http client 未读取响应体导致连接无法复用，解决连接泄漏耗尽连接池。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18259280.html
+
+原标题：Architecture：事件溯源架构模式适用业务场景
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/77149291.html
+
+原标题：坑点：Git仓库过大，clone速度极慢解决方案
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/42606920.html
+
+原标题：golang 系统设计测试环境预发环境生产环境隔离
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/29594708.html
+
+原标题：golang dockerfile 多阶段构建详解
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/63894740.html
+
+原标题：golang es 聚合统计查询实现
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/19380585.html
+
+原标题：部署实践：容器时区统一配置解决方案
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/19393937.html
+
+原标题：限流规则误拦截正常请求修复
+简介：golang context.WithTimeout 超时上下文，WithTimeout 设置超时时间，超时自动 cancel 释放协程。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41572515.html
+
+原标题：golang 系统设计网关请求日志 traceId 透传实现
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/71916951.html
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/26368171.html
+
+原标题：Nginx 透传真实客户端 IP 配置
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/29303926.html
+
+原标题：golang 系统设计 api 接口兼容性设计原则
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18302815.html
+
+原标题：golang redis 位图用户签到统计
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/30572404.html
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：golang clickhouse go 客户端数据写入，clickhouse‑go 客户端写入查询，海量时序数据分析业务。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/06150382.html
+
+原标题：实战：Nginx负载均衡多种策略配置实践
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/74947362.html
+
+原标题：Git commit 钩子提交规范校验
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18282516.html
+
+原标题：golang 配置热更新不重启服务
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/96150571.html
+
+原标题：golang grafana 监控面板简单配置
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/82927072.html
+
+原标题：golang 系统设计 protobuf 默认值坑点梳理
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/43716948.html
+
+原标题：请求工具封装统一异常处理
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/95038170.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/74857363.html
+
+原标题：文件锁正确使用避免死锁
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18572818.html
+
+原标题：编译打包产物依赖分析解读
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/84806960.html
+
+原标题：数据库事务 ACID 原理讲解
+简介：golang go 版本管理 go install 安装工具，go install 安装指定版本 go 工具，管理本地 go 工具版本。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/81926250.html
+
+原标题：性能笔记：压测如何定位真实系统瓶颈
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/52795859.html
+
+原标题：线程池拒绝策略任务丢失防护
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/85272696.html
+
+原标题：golang 系统设计 pre‑commit 钩子本地代码校验
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/07172587.html
+
+原标题：Git 分支切换合并删除完整操作
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/63725141.html
+
+原标题：程序信号中断退出处理逻辑
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/10504736.html
+
+原标题：Hands‑on：简易跨进程通信demo开发实践
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/97472507.html
+
+原标题：架构复盘：容器资源隔离架构CPU内存限制设计
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/75927369.html
+
+原标题：golang 系统设计链路追踪核心概念 trace span 讲解
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/74949181.html
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/84957354.html
+
+原标题：Cookie Session 会话状态管理
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/17250403.html
+
+原标题：golang 系统设计消息队列降级业务开关实现
+简介：golang http 客户端连接泄漏排查，http client 未读取响应体导致连接无法复用，解决连接泄漏耗尽连接池。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/30927958.html
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18283537.html
+
+原标题：灰度发布策略服务平滑升级
+简介：golang 环境变量读取与类型转换，读取系统环境变量，做类型转换默认值处理，适配多环境部署。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/63705847.html
+
+原标题：golang redis 事务 multi exec 使用
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/96079585.html
+
+原标题：Architecture：大文件上传下载系统架构设计
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/07178574.html
+
+原标题：架构笔记：多数据源架构设计事务处理难点
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/07181706.html
+
+原标题：快速入门消息通知简单实现方案
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/74917958.html
+
+原标题：快速入门消息队列基础概念模型
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/20402513.html
+
+原标题：Practice：实现数据库连接池简易模拟实现
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/85078462.html
+
+原标题：golang 单例模式实现几种方式
+简介：ORM 框架数据库增删改查实操，使用 ORM 框架完成数据库基础操作，减少手写 SQL，简化业务层数据库交互代码。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41535130.html
+
+原标题：golang toml 配置文件解析教程
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/74846473.html
+
+原标题：踩坑记录：CPU亲和配置不合理多核心负载不均
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41816957.html
+
+原标题：快速入门容器基础概念，理解镜像与容器
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/59682039.html
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/52524031.html
+
+原标题：golang docker 部署 prometheus 整套
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/30491817.html
+
+原标题：调优方案：前端静态资源打包性能体积优化
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/52613029.html
+
+原标题：性能笔记：压测如何定位真实系统瓶颈
+简介：ORM 框架数据库增删改查实操，使用 ORM 框架完成数据库基础操作，减少手写 SQL，简化业务层数据库交互代码。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/48237035.html
+
+原标题：golang k8s 基础概念 pod deployment
+简介：Git LFS 大文件推送失败解决，配置 Git LFS，处理仓库大文件，解决大文件推送报错推送失败。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/85994484.html
+
+原标题：golang 系统设计 tcp 三次握手四次挥手梳理
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/82813691.html
+
+原标题：消息队列生产消费模型入门
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41504848.html
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：vue3 组合式 API 业务开发实战，Vue3 组合式 API 业务实战示例，拆分业务逻辑组合复用，提升代码组织。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/63818172.html
+
+原标题：golang 系统设计密钥轮换安全实践思路
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41583848.html
+
+原标题：golang redis 缓存击穿防护实现
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/85970604.html
+
+原标题：golang 系统设计故障定位排查通用步骤方法论
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18210394.html
+
+原标题：golang 系统设计服务优雅停机完整流程
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18261526.html
+
+原标题：架构笔记：分布式系统常见一致性模型梳理
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/74929282.html
+
+三、实战开发｜Practice
+原标题：前端图片懒加载性能优化
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/07494808.html
+
+原标题：GraphQL 接口查询优化实操
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/28416846.html
+
+原标题：简易日志收集集中管理方案
+简介：golang consul 服务发现简单示例，对接 Consul 实现服务注册发现，微服务实例自动感知。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/04372403.html
+
+原标题：golang grpc protobuf 开发实操
+简介：golang interface {} 类型断言类型转换，类型断言 ok 模式，避免断言失败触发 panic。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/51735140.html
+
+原标题：golang 熔断降级简易组件开发
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/73838117.html
+
+原标题：Issue：本地数据库与线上数据库排序规则差异
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/85068470.html
+
+原标题：golang 系统设计日志与 traceId 关联打印实现
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18279584.html
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/39450685.html
+
+原标题：安全笔记：依赖包漏洞检测供应链安全
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18389684.html
+
+原标题：入门实践：简单重试逻辑封装实现
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/52736251.html
+
+原标题：golang redis 过期 key 监听业务
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/75938182.html
+
+原标题：golang docker volume 数据持久化
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41616940.html
+
+原标题：Hands‑on：手写简单消息队列理解存储模型
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/29380695.html
+
+原标题：golang url 参数编码处理方案
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/96351402.html
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/85947495.html
+
+原标题：DevOps：Docker镜像安全扫描集成CI流程
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/63003240.html
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/37506928.html
+
+原标题：golang 系统设计基准测试 benchmark 编写
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18281707.html
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/19391706.html
+
+原标题：入门实践：简单重试逻辑封装实现
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/60804043.html
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：golang websocket 服务端开发，Go 实现 WebSocket 服务端，处理连接、消息收发，实现长连接服务。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/74837281.html
+
+原标题：golang 告警推送钉钉机器人实现
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/39391807.html
+
+原标题：安全实践：API密钥管理轮换最佳实践
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/52727251.html
+
+原标题：死信队列处理消息阻塞业务
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/63026251.html
+
+原标题：golang 系统设计技术债务识别登记治理思路
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/07168506.html
+
+原标题：golang 系统设计缓存 key 淘汰雪崩防护思路
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/92048484.html
+
+原标题：开源实践：开源项目本地调试构建排坑经验
+简介：全平台系统环境变量配置，汇总多操作系统环境变量配置方法，统一项目读取逻辑，适配不同运行平台。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/29493939.html
+
+原标题：安全实践：生产环境禁止开启debug调试模式
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/74847370.html
+
+原标题：golang 系统设计线程协程泄露定位方法
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/06373515.html
+
+原标题：零基础理解读写分离基础思想
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/96160696.html
+
+原标题：简易日志收集集中管理方案
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/07695817.html
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/63725139.html
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18354736.html
+
+原标题：运维笔记：系统监控指标大盘搭建实操
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/95028181.html
+
+原标题：Hands‑on：本地模拟分布式锁失效场景测试
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/30526241.html
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/07168463.html
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/28613929.html
+
+原标题：缓存穿透防护保护数据库
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/06475807.html
+
+原标题：golang 系统设计多级缓存架构落地
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/08270696.html
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/39784736.html
+
+四、架构设计｜Architecture
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/29462735.html
+
+原标题：架构复盘：服务灰度发布架构设计与流量切分
+简介：缓存穿透防护保护数据库，实现缓存穿透防护手段，拦截不存在的数据查询，避免请求直接打穿数据库。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41684758.html
+
+原标题：Hands‑on：代码生成器，一键生成CRUD模板
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/20492817.html
+
+原标题：golang kafka 重试机制配置实操
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/41684947.html
+
+原标题：golang 系统设计代码仓库权限管理方案
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/96464736.html
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/37573928.html
+
+原标题：Hands‑on：手写简单RPC框架基础通信版本
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/40491706.html
+
+原标题：坑点：npm/pip全局版本与项目本地版本冲突
+简介：golang go 随机数安全与非安全，math/rand 伪随机与 crypto/rand 密码学安全随机，区分业务场景。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/29351403.html
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/28352595.html
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/95351403.html
+
+原标题：Security：反序列化漏洞风险识别与规避
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/07381484.html
+
+原标题：golang 系统设计多级缓存架构落地
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/52795958.html
+
+原标题：实战项目：数据导出Excel百万级大数据导出方案
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/85947475.html
+
+原标题：golang redis set 集合去重业务
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/18392625.html
+
+原标题：从零搭建本地数据库开发环境
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/30504020.html
+
+原标题：golang mysql exists in 性能对比
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/17461403.html
+
+原标题：golang 大文件读取内存优化
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/52684736.html
+
+原标题：golang 简单爬虫请求防封禁
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://www.blog.dedfi.cn/cxtsd/30403938.html
+
+?

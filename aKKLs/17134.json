@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：新手教程：本地项目初始化gitignore配置
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/72852333.shtml
+
+原标题：进程线程并发基础概念讲解
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/03434779.shtml
+
+原标题：批量异步处理系统业务落地
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/15608889.shtml
+
+原标题：golang 系统设计读写分离延迟业务兼容
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/96249795.shtml
+
+原标题：golang 系统设计数据库表设计通用规范模板
+简介：golang go 爬虫异步并发抓取，协程池控制并发抓取网页，多协程采集，提升爬虫采集速度。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/40382425.shtml
+
+原标题：golang mysql 读写分离简单实现
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/66668865.shtml
+
+原标题：Performance：JSON序列化性能优化实践
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/69116880.shtml
+
+原标题：避坑：Spring事务传播行为理解错误事务失效
+简介：浮点计算精度错误处理方案，讲解浮点数计算精度丢失问题，使用合适数据类型，规避金额计算出错。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/69901334.shtml
+
+原标题：golang 系统设计延迟消息实现几种方案对比
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/13356677.shtml
+
+原标题：包管理器依赖缓存清理
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/69206221.shtml
+
+原标题：Redis 内存淘汰策略数据防丢失
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/02342446.shtml
+
+原标题：架构复盘：网关层、应用层、数据库层层限流架构
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/62271145.shtml
+
+原标题：golang 项目 makefile 脚本编写
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/63618257.shtml
+
+原标题：golang 系统设计多级缓存架构落地
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/26124692.shtml
+
+原标题：golang redis lua 脚本原子操作
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/58802123.shtml
+
+原标题：vite 项目配置与构建提速技巧
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/43648897.shtml
+
+原标题：Issue：操作系统最大打开文件数限制导致报错
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/71576132.shtml
+
+原标题：Security：反序列化漏洞风险识别与规避
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/73499478.shtml
+
+原标题：golang 日志 zap 结构化日志实践
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/41399247.shtml
+
+原标题：Debug：分布式会话时钟不同步令牌提前失效
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/62468135.shtml
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/47024680.shtml
+
+原标题：golang redis 客户端业务使用
+简介：golang base64 编码解码实操，Go Base64 编码解码示例，处理业务场景 Base64 格式数据转换。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/28825820.shtml
+
+原标题：golang 系统设计读写分离延迟业务兼容
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/53623441.shtml
+
+原标题：golang 系统设计参数校验统一处理方案
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/53542402.shtml
+
+原标题：TLS 版本兼容 HTTPS 握手失败
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/36023471.shtml
+
+原标题：golang 系统设计分布式锁红锁优缺点梳理
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/14534677.shtml
+
+原标题：任务执行锁防止并发重复调度
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/00321124.shtml
+
+原标题：调优方案：消息批量消费提升MQ处理吞吐量
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/24768990.shtml
+
+原标题：golang 系统设计告警风暴抑制合并降噪方案
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/43674522.shtml
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/69684625.shtml
+
+原标题：实践：Git大仓库历史清理减小仓库体积实践
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/43619290.shtml
+
+原标题：Performance：批量导入数据性能优化实践
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/65090796.shtml
+
+原标题：方案设计：异步解耦业务架构边界识别
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/29241262.shtml
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/52685746.shtml
+
+原标题：开发记录：文件锁实现多进程互斥实践
+简介：nodejs 多进程任务分发处理，多进程拆分处理 CPU 密集任务，主进程分发任务，利用多核提升处理速度。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/17151359.shtml
+
+原标题：golang 系统设计延迟队列业务实现
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/38673515.shtml
+
+原标题：浏览器内存泄漏排查前端页面
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/39380682.shtml
+
+原标题：golang 系统设计多租户数据隔离方案
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/06572415.shtml
+
+原标题：开发记录：业务错误告警邮件通知组件实践
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/84850281.shtml
+
+原标题：golang mysql 悲观锁乐观锁实现
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/39402615.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计容量评估简单方法论
+简介：golang sync/atomic 原子操作使用注意，理解原子操作内存顺序，规避原子操作错误使用带来 bug。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/73930251.shtml
+
+原标题：Git 误提交撤销回退实操教程
+简介：golang crypto 密码学最佳实践，go crypto 包加密签名，规避不安全算法，使用安全密码套件。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/40594807.shtml
+
+原标题：vue pinia 状态管理实战教程
+简介：golang go 爬虫异步并发抓取，协程池控制并发抓取网页，多协程采集，提升爬虫采集速度。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/73605836.shtml
+
+原标题：线上异常：时间时区问题，定时任务执行偏移
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/39377360.shtml
+
+原标题：快速入门对象存储基础使用场景
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/39380687.shtml
+
+原标题：线上异常：接口偶发超时，完整定位过程记录
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/85027060.shtml
+
+原标题：golang 系统设计字符串拼接性能优化技巧
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/28379574.shtml
+
+原标题：golang 系统设计 api 文档 swagger redoc 落地
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/06917959.shtml
+
+原标题：全平台系统环境变量配置
+简介：golang 信号量控制并发数量，使用信号量控制并发，限制同时执行任务数量，保护下游资源。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/95946271.shtml
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/51567025.shtml
+
+原标题：golang 系统设计业务指标系统指标定义思路
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/74369925.shtml
+
+原标题：静态网页 HTML CSS 快速入门实战
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/38136814.shtml
+
+原标题：golang 系统设计分库分表 id 全局生成策略
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/17167028.shtml
+
+原标题：入门实践：搭建简单的热更新开发环境
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/51805867.shtml
+
+原标题：Security：RPC调用身份认证安全加固
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/84048169.shtml
+
+原标题：gRPC 服务端客户端入门示例
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/17453725.shtml
+
+原标题：gRPC 服务端客户端入门示例
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/40503928.shtml
+
+原标题：入门实践：简单错误码设计与使用规范
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/06151351.shtml
+
+原标题：Redis 大 key 拆分集群卡顿解决
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/49390291.shtml
+
+原标题：新手教程：Gittag版本标签打标签实操
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/19286789.shtml
+
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/97064545.shtml
+
+原标题：golang k8s configmap secret 配置
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/51605680.shtml
+
+原标题：golang 时间时区处理避坑指南
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/41414029.shtml
+
+原标题：golang 系统设计契约测试接口兼容性保障思路
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/30484624.shtml
+
+原标题：预编译 SQL 防注入实现
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/41351362.shtml
+
+原标题：golang docker compose 环境变量
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/18574697.shtml
+
+原标题：坑点：gitcherry‑pick引入不兼容代码
+简介：golang 雪花 id 重复问题排查，排查雪花算法 ID 重复问题，时钟回拨、机器 ID 冲突，给出修复方案。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/84831240.shtml
+
+原标题：golang redis 连接池参数最佳值
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/96916250.shtml
+
+原标题：golang 系统设计开源项目安全漏洞处理流程
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/63813927.shtml
+
+原标题：golang 系统设计线上问题复现思路简单讲解
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/57480390.shtml
+
+原标题：Debug日志：生产环境偶发空指针异常排查
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/95825249.shtml
+
+原标题：golang k8s job 一次性任务执行
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/03046927.shtml
+
+原标题：Mock 接口服务快速搭建实操
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/29370695.shtml
+
+原标题：效率笔记：批量处理文本命令行工具实战案例
+简介：golang 内存 dump 线上堆快照采集，线上生成内存 dump 文件，线下分析，定位内存泄漏问题。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/28260393.shtml
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/95969280.shtml
+
+原标题：golang 系统设计压测工具 vegeta 使用示例
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/18269570.shtml
+
+原标题：golang 系统设计代码安全审计简单思路
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/94836149.shtml
+
+原标题：golang docker compose 依赖启动顺序
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/63786947.shtml
+
+原标题：golang 分布式上下文传递方案
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/74836352.shtml
+
+原标题：设计思考：分布式ID系统架构选型对比
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/84914918.shtml
+
+三、实战开发｜Practice
+原标题：WebSocket 双向通信 demo 开发
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/18285806.shtml
+
+原标题：golang 系统设计压测指标确定与分析
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/05028130.shtml
+
+原标题：记一次升级操作系统内核引发服务不稳定
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/41593910.shtml
+
+原标题：Hands‑on：搭建OAuth2简易授权服务Demo
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/95968172.shtml
+
+原标题：安全实践：容器最小化镜像减少攻击面
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/73592806.shtml
+
+原标题：架构复盘：跨机房多活架构基础概念与代价
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/73613959.shtml
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/03241304.shtml
+
+原标题：API 接口调试与异常处理实战
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/84840249.shtml
+
+原标题：部署复盘：回滚策略，线上故障快速回退
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/61503148.shtml
+
+原标题：Troubleshooting：Nginx缓冲区过小大文件上传失败
+简介：golang hertz 性能优化参数调优，hertz 连接池、缓冲区参数调优，最大化接口吞吐性能。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/17161403.shtml
+
+原标题：CORS 跨域问题多种解决方案
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/39351415.shtml
+
+原标题：macOS 脚本执行权限开启
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/95804037.shtml
+
+原标题：golang 系统设计序列化性能选型对比
+简介：ORM 隐式慢查询问题规避，识别 ORM 框架隐式查询，避免循环查询数据库，减少不必要慢 SQL 产生。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/94834037.shtml
+
+原标题：部署实践：服务器时间同步chrony配置
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/43723918.shtml
+
+原标题：hosts 配置本地回环访问修复
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/28279582.shtml
+
+原标题：golang 系统设计内部服务熔断降级配置思路
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/75948160.shtml
+
+原标题：服务器时钟同步任务错乱修复
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/84794948.shtml
+
+原标题：快速入门Nginx基础配置，反向代理示例
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/28226923.shtml
+
+原标题：DevOps：多环境镜像标签版本管理规范
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/58034826.shtml
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/15913502.shtml
+
+原标题：golang mysql 死锁排查步骤讲解
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/06181685.shtml
+
+原标题：复盘总结：技术选型对比文档模板实践
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/67471481.shtml
+
+原标题：golang mysql 行锁表锁场景区分
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/51513904.shtml
+
+原标题：ORM 隐式慢查询问题规避
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/51746239.shtml
+
+原标题：JSON XML 数据解析处理示例
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/19683623.shtml
+
+原标题：性能笔记：DNS缓存优化减少域名解析开销
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/47464624.shtml
+
+原标题：新手教程：Git撤销错误提交的几种常用方式
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/39690696.shtml
+
+原标题：优化实践：读写分离分担主库查询压力
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/27478392.shtml
+
+原标题：golang 系统设计 commit 提交规范约定
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/95925939.shtml
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：golang go 泛型实现通用数据结构，泛型实现通用栈队列，复用逻辑支持多种数据类型。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/04150391.shtml
+
+原标题：Hands‑on：代码生成器，一键生成CRUD模板
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/62672514.shtml
+
+原标题：golang mongodb 索引优化查询速度
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/60705835.shtml
+
+原标题：golang redis 批量 pipeline 实践
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/85856251.shtml
+
+原标题：运维笔记：系统监控指标大盘搭建实操
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/17361402.shtml
+
+原标题：golang 系统设计数据库慢查询治理方案
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/51513537.shtml
+
+原标题：前端国际化多语言方案落地
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/85957172.shtml
+
+原标题：golang websocket 消息广播实现
+简介：跨平台 uniapp 多端开发实操，uniapp 开发一套代码，编译多端，梳理多端差异处理与适配技巧。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/03345247.shtml
+
+原标题：线上故障：第三方接口超时未设置熔断雪崩
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/60104770.shtml
+
+原标题：golang 系统设计消息队列降级业务开关实现
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/39361794.shtml
+
+原标题：实战：Docker资源监控查看容器状态实操
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/17461403.shtml
+
+四、架构设计｜Architecture
+原标题：golang 系统设计架构图绘制规范简单建议
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/97460289.shtml
+
+原标题：开发代理服务网络限制解决
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/40894724.shtml
+
+原标题：golang mysql 存储过程简单使用
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/70895724.shtml
+
+原标题：golang 系统设计消息幂等消费去重实现方案
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/74735140.shtml
+
+原标题：golang 接口返回统一封装工具
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/63736735.shtml
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/40795716.shtml
+
+原标题：消息队列生产消费模型入门
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/63773647.shtml
+
+原标题：效率笔记：Git高级命令日常开发高频使用汇总
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/17674625.shtml
+
+原标题：Hands‑on：简易图片压缩处理服务demo
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/95946251.shtml
+
+原标题：架构笔记：多环境隔离架构开发测试生产隔离
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/72795738.shtml
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/41573536.shtml
+
+原标题：golang kafka 监控指标简单梳理
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/73823915.shtml
+
+原标题：实战：接口压力测试实操，定位系统瓶颈
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/53634234.shtml
+
+原标题：踩坑记录：时间戳精度不一致引发判断错误
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/47191022.shtml
+
+原标题：Practice：实现定时任务动态启停管理接口
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/02222446.shtml
+
+原标题：开发复盘：实现定时任务调度服务支持动态任务
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/62791479.shtml
+
+原标题：本地简易配置中心动态管理
+简介：容器资源限制防止宿主机过载，设置容器 CPU 内存资源上限，避免单个容器耗尽宿主机全部硬件资源。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/32418967.shtml
+
+原标题：排错：DockerCompose依赖顺序启动顺序坑
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://www.blog.zgfatg.cn/xihsj/19197755.shtml
+
+?

@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：坑点：Git工作区换行符CRLF/LF跨平台坑
+简介：vue pinia 状态管理实战教程，Pinia 完整实战示例，实现状态定义修改，模块拆分替代 Vuex。
+ | 原文链接：m.pxltxl.asia/Article/details/9918468.sHtML
+
+原标题：gitignore 文件编写过滤规则
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：m.pxltxl.asia/Article/details/5474469.sHtML
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：m.pxltxl.asia/Article/details/3707880.sHtML
+
+原标题：golang redis zset 延时队列实现
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：m.pxltxl.asia/Article/details/0456657.sHtML
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：m.pxltxl.asia/Article/details/6001022.sHtML
+
+原标题：Fork 开源项目同步上游代码
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：m.pxltxl.asia/Article/details/4467886.sHtML
+
+原标题：Debug：长连接未设置心跳，连接僵死不回收
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：m.pxltxl.asia/Article/details/3565661.sHtML
+
+原标题：golang 系统设计第三方 sdk 二次封装技巧
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：m.pxltxl.asia/Article/details/2377547.sHtML
+
+原标题：golang docker 镜像安全扫描漏洞
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：m.pxltxl.asia/Article/details/8232102.sHtML
+
+原标题：golang 系统设计配置多环境本地开发适配方案
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：m.pxltxl.asia/Article/details/2836169.sHtML
+
+原标题：golang gin 中间件执行顺序讲解
+简介：golang hmac 签名生成校验示例，hmac 生成消息签名，做接口请求签名，校验数据不被篡改。
+ | 原文链接：m.pxltxl.asia/Article/details/4774558.sHtML
+
+原标题：axios 二次封装请求拦截处理
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：m.pxltxl.asia/Article/details/3678991.sHtML
+
+原标题：入门实践：简单数据脱敏处理示例
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：m.pxltxl.asia/Article/details/8124244.sHtML
+
+原标题：GitHub Markdown 文档语法汇总
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：m.pxltxl.asia/Article/details/5778980.sHtML
+
+原标题：Troubleshooting：K8sPodOOMKilled完整排查流程
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：m.pxltxl.asia/Article/details/6346800.sHtML
+
+原标题：入门实战：搭建简易静态网页项目
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：m.pxltxl.asia/Article/details/1802357.sHtML
+
+原标题：正则表达式文本处理实战案例
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：m.pxltxl.asia/Article/details/8379235.sHtML
+
+原标题：golang gin 路由分组权限管控
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：m.pxltxl.asia/Article/details/9389114.sHtML
+
+原标题：方案设计：分布式分页查询架构难点处理
+简介：golang 系统资源限制读取 cpu 内存，读取系统容器 cpu 内存限制，程序适配容器资源配额做业务调优。
+ | 原文链接：m.pxltxl.asia/Article/details/7268040.sHtML
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：m.pxltxl.asia/Article/details/8824690.sHtML
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：m.pxltxl.asia/Article/details/8055092.sHtML
+
+原标题：golang 系统设计性能优化通用思路方法论
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：m.pxltxl.asia/Article/details/6156582.sHtML
+
+原标题：Practice：实现接口签名、验签完整示例代码
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：m.pxltxl.asia/Article/details/7157034.sHtML
+
+原标题：架构笔记：海量日志处理架构选型与实践
+简介：golang 环境变量读取与类型转换，读取系统环境变量，做类型转换默认值处理，适配多环境部署。
+ | 原文链接：m.pxltxl.asia/Article/details/4693699.sHtML
+
+原标题：Security：接口鉴权越权漏洞检测与修复
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：m.pxltxl.asia/Article/details/2678236.sHtML
+
+原标题：css 动画性能优化 GPU 加速
+简介：消息队列生产消费模型入门，讲解消息队列生产、存储、消费流程，理解异步解耦、削峰，掌握消息队列基础概念。
+ | 原文链接：m.pxltxl.asia/Article/details/5246704.sHtML
+
+原标题：golang 系统设计 protobuf oneof 类型业务场景
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：m.pxltxl.asia/Article/details/8275717.sHtML
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang kafka 同步异步消费对比，对比 Kafka 同步消费异步消费，分析优缺点，业务选型参考。
+ | 原文链接：m.pxltxl.asia/Article/details/1897022.sHtML
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：m.pxltxl.asia/Article/details/9381660.sHtML
+
+原标题：golang 系统设计高可用服务架构梳理
+简介：golang context 超时取消实战案例，使用 context 控制协程、http 请求超时，自动终止超时任务，避免协程无限阻塞。
+ | 原文链接：m.pxltxl.asia/Article/details/9669826.sHtML
+
+原标题：golang 文件上传下载接口开发
+简介：WebSocket 聊天室实时通讯开发，基于 WebSocket 搭建简易聊天室，实现多人消息广播实时聊天效果。
+ | 原文链接：m.pxltxl.asia/Article/details/0470027.sHtML
+
+原标题：坑点：gitpull冲突处理不当造成代码丢失
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：m.pxltxl.asia/Article/details/0791269.sHtML
+
+原标题：踩坑记录：CPU亲和配置不合理多核心负载不均
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：m.pxltxl.asia/Article/details/5934771.sHtML
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：golang cgo 性能开销避坑指南，cgo 调用开销，减少频繁 cgo 调用，规避 cgo 带来内存泄漏风险。
+ | 原文链接：m.pxltxl.asia/Article/details/8291480.sHtML
+
+原标题：golang 系统设计线上 ddl 变更安全执行思路
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：m.pxltxl.asia/Article/details/2602581.sHtML
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：m.pxltxl.asia/Article/details/9379250.sHtML
+
+原标题：前端打包分包加载提速方案
+简介：golang docker compose 开发环境 go 服务，docker compose 编排 go 服务与中间件，本地一键拉起整套开发环境。
+ | 原文链接：m.pxltxl.asia/Article/details/3896888.sHtML
+
+原标题：手写简易 RPC 服务通信原型
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：m.pxltxl.asia/Article/details/7820223.sHtML
+
+原标题：Architecture：日志、监控、告警整套可观测架构
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：m.pxltxl.asia/Article/details/2689888.sHtML
+
+原标题：express 请求参数校验处理
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：m.pxltxl.asia/Article/details/1612719.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang gorm 预加载关联查询优化
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：m.pxltxl.asia/Article/details/0561158.sHtML
+
+原标题：时间精度统一业务判断修复
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：m.pxltxl.asia/Article/details/7268260.sHtML
+
+原标题：全平台系统环境变量配置
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：m.pxltxl.asia/Article/details/3713470.sHtML
+
+原标题：架构笔记：多环境隔离架构开发测试生产隔离
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：m.pxltxl.asia/Article/details/5918911.sHtML
+
+原标题：方案对比：本地缓存vs分布式缓存架构取舍
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：m.pxltxl.asia/Article/details/4775979.sHtML
+
+原标题：系统时间同步定时任务偏移
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：m.pxltxl.asia/Article/details/1590446.sHtML
+
+原标题：安全实践：备份文件访问权限安全管控
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：m.pxltxl.asia/Article/details/5153581.sHtML
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：m.pxltxl.asia/Article/details/7152770.sHtML
+
+原标题：项目实践：多环境配置管理组件设计与实现
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：m.pxltxl.asia/Article/details/3713691.sHtML
+
+原标题：nodejs 中间件模式原理剖析
+简介：golang redis hyperloglog 基数统计，hyperloglog 统计 UV 基数，海量数据去重统计，极低内存开销。
+ | 原文链接：m.pxltxl.asia/Article/details/2896583.sHtML
+
+原标题：优化实践：内存池思想减少频繁分配释放
+简介：golang 大文件 HTTP 流式上传接收，服务端流式接收上传文件，不全部加载内存，防止大文件 OOM 崩溃。
+ | 原文链接：m.pxltxl.asia/Article/details/5005899.sHtML
+
+原标题：TCP 长连接参数优化 TIME_WAIT
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：m.pxltxl.asia/Article/details/4824813.sHtML
+
+原标题：坑点：gitrebase操作失误，代码提交丢失
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：m.pxltxl.asia/Article/details/0791582.sHtML
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：m.pxltxl.asia/Article/details/9660037.sHtML
+
+原标题：踩坑：数据库连接未关闭，连接池泄露
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：m.pxltxl.asia/Article/details/5835704.sHtML
+
+原标题：golang 系统设计大盘看板设计最佳实践汇总
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：m.pxltxl.asia/Article/details/8780226.sHtML
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：m.pxltxl.asia/Article/details/0435894.sHtML
+
+原标题：golang redis 位图用户签到统计
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：m.pxltxl.asia/Article/details/6346812.sHtML
+
+原标题：Redis 大 key 拆分集群卡顿解决
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：m.pxltxl.asia/Article/details/4016993.sHtML
+
+原标题：golang 系统设计内部服务熔断降级配置思路
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：m.pxltxl.asia/Article/details/9357715.sHtML
+
+原标题：golang 系统设计磁盘满故障应急处理步骤
+简介：golang go 代码覆盖率线上统计，单元测试覆盖率统计，找出未测试代码分支，提升测试质量。
+ | 原文链接：m.pxltxl.asia/Article/details/2691038.sHtML
+
+原标题：golang 系统设计压力测试性能测试执行流程
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：m.pxltxl.asia/Article/details/1602571.sHtML
+
+原标题：Practice：实现请求重试组件支持退避策略
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：m.pxltxl.asia/Article/details/0482558.sHtML
+
+原标题：线程池拒绝策略任务丢失防护
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：m.pxltxl.asia/Article/details/0502649.sHtML
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：m.pxltxl.asia/Article/details/3715693.sHtML
+
+原标题：性能复盘：数据库回滚日志过大性能影响优化
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：m.pxltxl.asia/Article/details/7157922.sHtML
+
+原标题：线上异常：缓存雪崩带来数据库压力瞬间飙升
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：m.pxltxl.asia/Article/details/4124803.sHtML
+
+原标题：开发复盘：实现定时任务调度服务支持动态任务
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：m.pxltxl.asia/Article/details/3835837.sHtML
+
+原标题：golang mysql 事务回滚异常处理
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：m.pxltxl.asia/Article/details/4899791.sHtML
+
+原标题：golang 协程 panic 捕获防止崩溃
+简介：定时任务重复执行分布式锁，使用分布式锁控制定时任务，保证集群环境定时任务只会执行一次。
+ | 原文链接：m.pxltxl.asia/Article/details/6223967.sHtML
+
+原标题：性能笔记：操作系统文件句柄、虚拟内存调优
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：m.pxltxl.asia/Article/details/7121447.sHtML
+
+原标题：一次JWT令牌过期时间异常问题复盘
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：m.pxltxl.asia/Article/details/0456770.sHtML
+
+原标题：部署复盘：配置不要硬编码进镜像最佳实践
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：m.pxltxl.asia/Article/details/8389130.sHtML
+
+原标题：golang 系统设计读写分离架构示例
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：m.pxltxl.asia/Article/details/2913699.sHtML
+
+原标题：部署实践：服务器SSH安全加固配置实践
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：m.pxltxl.asia/Article/details/6113590.sHtML
+
+原标题：零基础学习简单正则表达式实战案例
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：m.pxltxl.asia/Article/details/7568034.sHtML
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：m.pxltxl.asia/Article/details/0491479.sHtML
+
+原标题：golang es 分词器选型业务适配
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：m.pxltxl.asia/Article/details/0503550.sHtML
+
+原标题：golang grpc protobuf 开发实操
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：m.pxltxl.asia/Article/details/3723693.sHtML
+
+原标题：golang 系统设计 rest 资源命名规范汇总
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：m.pxltxl.asia/Article/details/1880360.sHtML
+
+三、实战开发｜Practice
+原标题：golang k8s 命名空间资源隔离方案
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：m.pxltxl.asia/Article/details/8168049.sHtML
+
+原标题：API 大版本不兼容平滑迁移
+简介：golang json 自定义 MarshalJSON UnmarshalJSON，自定义 json 序列化反序列化逻辑，处理特殊格式字段。
+ | 原文链接：m.pxltxl.asia/Article/details/2722568.sHtML
+
+原标题：入门实践：本地简单代理服务搭建
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：m.pxltxl.asia/Article/details/0469025.sHtML
+
+原标题：部署实践：服务器时间同步chrony配置
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：m.pxltxl.asia/Article/details/5157926.sHtML
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：m.pxltxl.asia/Article/details/2625782.sHtML
+
+原标题：﻿【GettingStarted】从零搭建本地开发环境完整指南
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：m.pxltxl.asia/Article/details/2601577.sHtML
+
+原标题：golang 系统设计限流算法原理代码实现
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：m.pxltxl.asia/Article/details/0480376.sHtML
+
+原标题：从零搭建简单的健康检查接口示例
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：m.pxltxl.asia/Article/details/4824780.sHtML
+
+原标题：实战：多版本SDK兼容业务改造实践
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：m.pxltxl.asia/Article/details/8579144.sHtML
+
+原标题：golang 系统设计网络 io 模型 epoll 原理讲解
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：m.pxltxl.asia/Article/details/1892471.sHtML
+
+原标题：golang defer panic 异常处理
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：m.pxltxl.asia/Article/details/0679155.sHtML
+
+原标题：golang 系统设计 commit 提交规范约定
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：m.pxltxl.asia/Article/details/4846037.sHtML
+
+原标题：golang 系统设计定时任务执行超时中断防护
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：m.pxltxl.asia/Article/details/9269159.sHtML
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：m.pxltxl.asia/Article/details/3724782.sHtML
+
+原标题：react 状态管理方案选型对比
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：m.pxltxl.asia/Article/details/3296359.sHtML
+
+原标题：golang 系统设计缓存大 key 拆分优化实操
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：m.pxltxl.asia/Article/details/6237132.sHtML
+
+原标题：nodejs 信号处理优雅关闭服务
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：m.pxltxl.asia/Article/details/8887321.sHtML
+
+原标题：golang http client 连接池调优
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：m.pxltxl.asia/Article/details/9001446.sHtML
+
+原标题：内存泄漏定位分析完整流程
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：m.pxltxl.asia/Article/details/4698770.sHtML
+
+原标题：从零搭建本地数据库开发环境
+简介：golang json number 数字不转 float64，使用 json.Number 保留原始数字字符串，防止大数字精度丢失。
+ | 原文链接：m.pxltxl.asia/Article/details/6923191.sHtML
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：分布式事务最终一致性实现，基于可靠消息实现最终一致性，解决跨数据库跨服务业务数据一致性。
+ | 原文链接：m.pxltxl.asia/Article/details/4678688.sHtML
+
+原标题：日志输出规范防止磁盘爆满
+简介：golang go 并发模式 or‑channel 信号合并，合并多个 done 信号，任意一个完成触发退出逻辑。
+ | 原文链接：m.pxltxl.asia/Article/details/8910155.sHtML
+
+原标题：开发记录：长连接连接管理自动清理僵死连接
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：m.pxltxl.asia/Article/details/3654444.sHtML
+
+原标题：性能笔记：避免频繁创建销毁对象GC优化
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：m.pxltxl.asia/Article/details/0132338.sHtML
+
+原标题：WSL 文件权限访问异常修复
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：m.pxltxl.asia/Article/details/1567356.sHtML
+
+原标题：golang 系统设计测试环境预发环境生产环境隔离
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：m.pxltxl.asia/Article/details/0343455.sHtML
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：m.pxltxl.asia/Article/details/1348091.sHtML
+
+原标题：golang 优雅处理数据库事务
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：m.pxltxl.asia/Article/details/8234465.sHtML
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：m.pxltxl.asia/Article/details/9786346.sHtML
+
+原标题：golang 系统设计配置灰度下发简单实现思路
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：m.pxltxl.asia/Article/details/1156876.sHtML
+
+原标题：前端打包产物体积压缩优化
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：m.pxltxl.asia/Article/details/4790235.sHtML
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：m.pxltxl.asia/Article/details/9235532.sHtML
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：m.pxltxl.asia/Article/details/4144120.sHtML
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：m.pxltxl.asia/Article/details/2568774.sHtML
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：m.pxltxl.asia/Article/details/1544578.sHtML
+
+原标题：线上异常：线程池队列拒绝策略配置错误丢任务
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：m.pxltxl.asia/Article/details/9336225.sHtML
+
+原标题：接口签名验签完整安全方案
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：m.pxltxl.asia/Article/details/7367334.sHtML
+
+原标题：架构笔记：事件驱动架构适用场景与坑点
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：m.pxltxl.asia/Article/details/6797856.sHtML
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：m.pxltxl.asia/Article/details/7128355.sHtML
+
+原标题：内网测试服务搭建团队调试
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：m.pxltxl.asia/Article/details/0448698.sHtML
+
+四、架构设计｜Architecture
+原标题：简易日志收集集中管理方案
+简介：golang sync.RWMutex 读写锁使用场景，读多写少场景读写锁，读共享写互斥，提升并发性能。
+ | 原文链接：m.pxltxl.asia/Article/details/2679887.sHtML
+
+原标题：Debug：网关超时时间小于后端接口超时设置
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：m.pxltxl.asia/Article/details/4257457.sHtML
+
+原标题：golang docker 镜像体积优化技巧
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：m.pxltxl.asia/Article/details/3254122.sHtML
+
+原标题：golang 系统设计覆盖索引减少回表查询实现
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：m.pxltxl.asia/Article/details/2377689.sHtML
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：m.pxltxl.asia/Article/details/9234557.sHtML
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：m.pxltxl.asia/Article/details/7810115.sHtML
+
+原标题：新手指南：项目本地编译输出产物解析
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：m.pxltxl.asia/Article/details/5366231.sHtML
+
+原标题：git rebase 整理提交历史实操
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：m.pxltxl.asia/Article/details/2013230.sHtML
+
+原标题：大事务拆分防止连接池耗尽
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：m.pxltxl.asia/Article/details/1544541.sHtML
+
+原标题：容器内存扩容 OOM 被杀死修复
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：m.pxltxl.asia/Article/details/2577589.sHtML
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：m.pxltxl.asia/Article/details/8699578.sHtML
+
+原标题：部署实践：DockerCompose管理多服务环境
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：m.pxltxl.asia/Article/details/6924354.sHtML
+
+原标题：从零搭建简单定时任务demo
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：m.pxltxl.asia/Article/details/4599981.sHtML
+
+原标题：浮点计算精度错误处理方案
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：m.pxltxl.asia/Article/details/3980911.sHtML
+
+原标题：项目实践：消息队列消息确认机制业务实践
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：m.pxltxl.asia/Article/details/2670800.sHtML
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：m.pxltxl.asia/Article/details/0346468.sHtML
+
+原标题：Debug：Websocket频繁断开重连根因分析
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：m.pxltxl.asia/Article/details/8529091.sHtML
+
+原标题：golang 系统设计集成测试数据库回滚重置方案
+简介：golang cgo 调用 C 语言代码示例，cgo 调用 C 函数，go 与 C 互相调用，对接 C 语言库能力。
+ | 原文链接：m.pxltxl.asia/Article/details/2674770.sHtML
+
+?
